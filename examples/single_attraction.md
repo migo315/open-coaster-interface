@@ -1,5 +1,5 @@
 # Get single attraction (e.g. "Taron")
-You can fetch every attraction by an **Universally Unique ID** (UUID). Every attraction as an UUID. You can look up the UUID at
+You can fetch every attraction by an **Universally Unique ID** (UUID). Every attraction has an UUID. You can look up the UUID at
 [coaster.cloud](https://coaster.cloud). This example use "Taron" and the UUID of "Taron" is `81d663fc-ef37-40fe-b1c7-dc768a5a57f8`.
 
 ## Common

@@ -1,9 +1,9 @@
 # Get waiting times (e.g. "Efteling")
-You can fetch waiting times for some parks by an **Universally Unique ID** (UUID). Every park as an UUID. You can look up the 
+You can fetch waiting times for some parks by an **Universally Unique ID** (UUID). Every park has an UUID. You can look up the 
 UUID at [coaster.cloud](https://coaster.cloud). This example use "Efteling" and the UUID of "Efteling" is `49f00560-9b8d-4c11-a3ed-f548192ef5d9`.
 
 ## Common
-We can use following GraphQL query for fetching the name, city / country and the type of "Phantasialand":
+We can use following GraphQL query for fetching the name, city / country and the type of "Efteling":
 ```graphql
 {
   park(id: "49f00560-9b8d-4c11-a3ed-f548192ef5d9") {

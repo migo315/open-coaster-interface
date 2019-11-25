@@ -25,6 +25,7 @@ You will find here some example request for fetching data.
 * [Get list of parks](./examples/list_park.md)
 * [Get waiting times (e.g. "Efteling")](./examples/waiting_times.md)
 * [Get facet search (e.g. of parks)](./examples/facet_park.md)
+* [Get parks by geo location](./examples/location_filter.md)
 
 Please keep in mind that these are very simple examples with only a fraction of the fields.
 The complete documentation can be found in our [Playground](https://oci.coaster.cloud).

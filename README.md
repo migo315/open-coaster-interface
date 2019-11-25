@@ -6,10 +6,7 @@ GraphQL Endpoint: `https://oci.coaster.cloud/graphql/v1`
 
 GraphQL IDE (Playground): [https://oci.coaster.cloud](https://oci.coaster.cloud)
 
-**WARNING:** OCI is currently in the "Release Candidate" phase and will be versioned on November 25th 2019. Before OCI is
-versioned, there may still be Breaking Changes.
-
-## Version (from 25th of November)
+## Version
 **OCI** follows the [Semantic Versioning](https://semver.org/): MAJOR.MINOR.PATCH
 - MAJOR version changed when we made incompatible changes (Breaking Change).
 - MINOR version changed when we add new fields which don't affect current functionality.

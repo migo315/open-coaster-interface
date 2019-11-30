@@ -11,7 +11,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - \#1 Added new `label` field for history items (park and attraction).
 - \#2 Added new `timezone` field for parks (sub field: `key`, `value`, `offset`)
-- \#5 Add sorting by GEO location of location filter is active
+- \#5 Add sorting by GEO location if location filter is active
+- Add GEO location fields for attractions
 - Add first mutation for adding waiting times
 - Add query param `debug` for execute GraphQL requests with logging (for debugging) 
 

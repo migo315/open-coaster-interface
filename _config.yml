@@ -1,1 +1,6 @@
 theme: jekyll-theme-cayman
+title: Open Coaster Interface
+description: A public GraphQL API for fetching themepark data
+github:
+  is_project_page: false
+  another_url: another value

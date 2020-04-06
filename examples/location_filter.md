@@ -20,7 +20,7 @@ Use following GraphQL query for fetching the id and name of parks (near "Düssld
 }
 ```
 
-You can test this query at our [Playground](https://oci.coaster.cloud). The JSON response should be something like that:
+You can test this query at our [Playground](../playground.html). The JSON response should be something like that:
 
 ```json
 {
@@ -57,7 +57,7 @@ You can test this query at our [Playground](https://oci.coaster.cloud). The JSON
 }
 ```
 
-You can combine multiple filters. Just look up all supported filters at our [Playground](https://oci.coaster.cloud).
+You can combine multiple filters. Just look up all supported filters at our [Playground](../playground.html).
 
 ## Sorting
 The result is sorted by nearest park. But you can define a different sorting if needed (e.g. by name):
@@ -79,7 +79,7 @@ The result is sorted by nearest park. But you can define a different sorting if 
 }
 ```
 
-You can test this query at our [Playground](https://oci.coaster.cloud). The JSON response should be something like that:
+You can test this query at our [Playground](../playground.html). The JSON response should be something like that:
 
 ```json
 {

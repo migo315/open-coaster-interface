@@ -14,7 +14,7 @@ Use following GraphQL query for fetching the id and name of parks (limited to 10
 }
 ```
 
-You can test this query at our [Playground](https://oci.coaster.cloud). The JSON response should be something like that:
+You can test this query at our [Playground](../playground.html). The JSON response should be something like that:
 
 ```json
 {
@@ -68,7 +68,7 @@ You can test this query at our [Playground](https://oci.coaster.cloud). The JSON
 ```
 
 There are a lot of fields you can fetch for a park (attributes, history, full address, images, ...). Just look up the documentation
-at our [Playground](https://oci.coaster.cloud).
+at our [Playground](../playground.html).
 
 ## Searching
 Use following GraphQL query for fetching the id and name of parks which begins with "efte" (limited to 10 parks):
@@ -83,7 +83,7 @@ Use following GraphQL query for fetching the id and name of parks which begins w
 }
 ```
 
-You can test this query at our [Playground](https://oci.coaster.cloud). The JSON response should be something like that:
+You can test this query at our [Playground](../playground.html). The JSON response should be something like that:
 
 ```json
 {
@@ -113,7 +113,7 @@ Use following GraphQL query for fetching the id and name of parks in spain (limi
 }
 ```
 
-You can test this query at our [Playground](https://oci.coaster.cloud). The JSON response should be something like that:
+You can test this query at our [Playground](../playground.html). The JSON response should be something like that:
 
 ```json
 {
@@ -146,4 +146,4 @@ You can test this query at our [Playground](https://oci.coaster.cloud). The JSON
 }
 ```
 
-You can combine multiple filters. Just look up all supported filters at our [Playground](https://oci.coaster.cloud).
+You can combine multiple filters. Just look up all supported filters at our [Playground](../playground.html).

@@ -21,7 +21,7 @@ Use following GraphQL query for fetching the id and name of parks (limited to 10
 }
 ```
 
-You can test this query at our [Playground](https://oci.coaster.cloud). The JSON response should be something like that:
+You can test this query at our [Playground](../playground.html). The JSON response should be something like that:
 
 ```json
 {
@@ -120,4 +120,4 @@ You can test this query at our [Playground](https://oci.coaster.cloud). The JSON
 As you can see, the results contains a facet result besides the park result. Every available country and the amount of matched parks
 will be returned. You can combine multiple facets and filters.
 
-Just look up all supported facets at our [Playground](https://oci.coaster.cloud).
+Just look up all supported facets at our [Playground](../playground.html).

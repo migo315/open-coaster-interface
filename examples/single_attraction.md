@@ -17,7 +17,7 @@ We can use following GraphQL query for fetching the name and attributes of "Taro
 }
 ```
 
-You can test this query at our [Playground](https://oci.coaster.cloud). The JSON response should be something like that:
+You can test this query at our [Playground](../playground.html). The JSON response should be something like that:
 
 ```json
 {
@@ -114,4 +114,4 @@ You can test this query at our [Playground](https://oci.coaster.cloud). The JSON
 ```
 
 There are a lot of fields you can fetch for an attraction (safety regulation, elements, history, images, ...). Just look up the documentation
-at our [Playground](https://oci.coaster.cloud).
+at our [Playground](../playground.html).

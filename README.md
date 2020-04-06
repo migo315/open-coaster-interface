@@ -4,7 +4,7 @@ introduce to the API and show some examples. In addition, we handle all issues, 
 
 GraphQL Endpoint: `https://oci.coaster.cloud/graphql/v1`
 
-GraphQL IDE (Playground): [https://oci.coaster.cloud](https://oci.coaster.cloud)
+You can write, validate, and test GraphQL queries at our [Playground](./playground.html).
 
 ## License / Open Data
 Our data are published under the Create Commons license CC-BY-ND Version 4 and can be used freely for everyone. 
@@ -31,7 +31,7 @@ You will find here some example request for fetching data.
 * [Get parks by geo location](./examples/location_filter.md)
 
 Please keep in mind that these are very simple examples with only a fraction of the fields.
-The complete documentation can be found in our [Playground](https://oci.coaster.cloud).
+The complete documentation can be found in our [Playground](./playground.html).
 
 ## Localization
 You can help to improve the english translations at [crowdin](https://crowdin.com/project/coastercloud). We are grateful for any help.
@@ -42,5 +42,3 @@ Thanks to all services which provide us an open source / open data license.
 <a href="https://www.browserstack.com"><img src="./images/browserstack.png" width="277" height="60"></a>
 
 <a href="https://crowdin.com"><img src="./images/crowdin.png" width="276" height="60"></a>
-
-<a href="https://cloudinary.com"><img src="./images/cloudinary.png" width="236" height="60"></a>

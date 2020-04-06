@@ -16,7 +16,7 @@ We can use following GraphQL query for fetching the name and waiting times of "E
 }
 ```
 
-You can test this query at our [Playground](https://oci.coaster.cloud). The JSON response should be something like that:
+You can test this query at our [Playground](../playground.html). The JSON response should be something like that:
 ```json
 {
   "data": {

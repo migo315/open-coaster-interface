@@ -1,32 +1,61 @@
 <html>
-  <head>
+<head>
     <title>OCI Playground</title>
     <link href="https://unpkg.com/graphiql/graphiql.min.css" rel="stylesheet" />
-  </head>
-  <body style="margin: 0;">
-    <div id="graphiql" style="height: 100vh;"></div>
+</head>
+<body style="margin: 0;">
+<div id="graphiql" style="height: 100vh;"></div>
 
-    <script crossorigin src="https://unpkg.com/react/umd/react.production.min.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"></script>
-    <script crossorigin src="https://unpkg.com/graphiql/graphiql.min.js"></script>
+<script crossorigin src="https://unpkg.com/react/umd/react.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/graphiql/graphiql.min.js"></script>
 
-    <script>
-      const graphQLFetcher = graphQLParams => {
-        graphQLParams.defaultQuery = "query { parkCollection { parks { id, name }}}";
-      
+<script>
+    const graphQLFetcher = graphQLParams =>
         fetch('https://oci.coaster.cloud/graphql/v1', {
-          method: 'post',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(graphQLParams),
+            method: 'post',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(graphQLParams),
         })
-          .then(response => response.json())
-          .catch(() => response.text());
-      }
-      
-      ReactDOM.render(
-        React.createElement(GraphiQL, { fetcher: graphQLFetcher }),
+            .then(response => response.json())
+            .catch(() => response.text());
+
+    ReactDOM.render(
+        React.createElement(GraphiQL, {
+            fetcher: graphQLFetcher,
+            docExplorerOpen: true,
+            defaultQuery: `# Welcome to Open Coaster Interface
+#
+# This is an in-browser tool for writing, validating, and
+# testing GraphQL queries.
+#
+# You will find below a valid example query for fetching some
+# park data and attractions from "Phantasialand". You
+# can modify the query to play with the API.
+#
+# Note that only a few fields are queried. You can expand this
+# query with many other fields for park and attraction data.
+# Take a look at our documentation on the right side.
+
+query {
+    park(id: "f7328b4a-3308-4823-b4b6-58fb9a254199") {
+        id,
+        name,
+        state { key, label(locale: "en") },
+        address { country { key, label(locale: "en") }},
+        attractionCollection {
+          attractions {
+            id,
+            name,
+            category { key, label(locale: "en") }
+          }
+        }
+    }
+}
+`
+        }),
         document.getElementById('graphiql'),
-      );
-    </script>
-  </body>
+    );
+</script>
+</body>
 </html>

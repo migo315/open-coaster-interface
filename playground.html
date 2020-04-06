@@ -12,6 +12,8 @@
 
     <script>
       const graphQLFetcher = graphQLParams =>
+        graphQLParams.defaultQuery = "query { parkCollection { parks { id, name }}}";
+      
         fetch('https://oci.coaster.cloud/graphql/v1', {
           method: 'post',
           headers: { 'Content-Type': 'application/json' },

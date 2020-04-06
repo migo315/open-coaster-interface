@@ -11,7 +11,7 @@
     <script crossorigin src="https://unpkg.com/graphiql/graphiql.min.js"></script>
 
     <script>
-      const graphQLFetcher = graphQLParams =>
+      const graphQLFetcher = graphQLParams => {
         graphQLParams.defaultQuery = "query { parkCollection { parks { id, name }}}";
       
         fetch('https://oci.coaster.cloud/graphql/v1', {
@@ -21,6 +21,8 @@
         })
           .then(response => response.json())
           .catch(() => response.text());
+      }
+      
       ReactDOM.render(
         React.createElement(GraphiQL, { fetcher: graphQLFetcher }),
         document.getElementById('graphiql'),

@@ -5,7 +5,7 @@ You are able to create a [facet search](https://en.wikipedia.org/wiki/Faceted_se
 Use following GraphQL query for fetching the id and name of parks (limited to 10 parks) and a facet results for countries:
 ```graphql
 {
-  parkCollection(itemsPerPage: 10, facet: [PARK_COUNTRY]) {
+  parkCollection(itemsPerPage: 10, facet: [COUNTRY]) {
     facets {
       name,
       terms {

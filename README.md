@@ -7,10 +7,11 @@ GraphQL Endpoint: `https://oci.coaster.cloud/graphql/v1`
 You can write, validate, and test GraphQL queries at our [Playground](./playground.html).
 
 ## License / Open Data
-Our data are published under the Create Commons license CC-BY-ND Version 4 and can be used freely for everyone. 
-The complete license text can be viewed on [Creative Commons](https://creativecommons.org/licenses/by-nd/4.0/). 
+Our data are published under the Create Commons license CC-BY Version 4 and can be used freely for everyone. 
+The complete license text can be viewed on [Creative Commons](https://creativecommons.org/licenses/by/4.0/). Different
+Create Common license can apply for images. The API will return the license information for each image.
 
-![CC-BY-ND 4](./images/license.png)
+![CC-BY 4](./images/license.png)
 
 ## Version
 **OCI** follows the [Semantic Versioning](https://semver.org/): MAJOR.MINOR.PATCH

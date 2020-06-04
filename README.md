@@ -2,44 +2,12 @@
 **Open Coaster Interface** is an GraphQL API for themeparks provided by [coaster.cloud](https://coaster.cloud). This repository
 introduce to the API and show some examples. In addition, we handle all issues, suggestions and provide a change log.
 
-GraphQL Endpoint: `https://oci.coaster.cloud/graphql/v1`
+### Important: API shutdown
 
-You can write, validate, and test GraphQL queries at our [Playground](./playground.html).
+After 3 years of development and maintenance, the project get some major changes. The project goals will also change.
+The project should be smaller overall so that I have less effort. Since the API requires a lot of maintenance and only a few people using it, 
+it will also switched off. The amount of data fields will be reduced too.
 
-## License / Open Data
-Our data are published under the Create Commons license CC-BY Version 4 and can be used freely for everyone. 
-The complete license text can be viewed on [Creative Commons](https://creativecommons.org/licenses/by/4.0/). Different
-Create Common license can apply for images. The API will return the license information for each image.
+I'm really sorry - but since I manage the project entirely as a hobby and want to keep costs and effort low in the future, I have to make some changes.
 
-![CC-BY 4](./images/license.png)
-
-## Version
-**OCI** follows the [Semantic Versioning](https://semver.org/): MAJOR.MINOR.PATCH
-- MAJOR version changed when we made incompatible changes (Breaking Change).
-- MINOR version changed when we add new fields which don't affect current functionality.
-- PATCH version changed when we fix a bug which don't affect current functionality.
-
-Therefor, all changes in MINOR or PATCH don't have breaking changes.
-
-## Examples
-You will find here some example request for fetching data.
-
-* [Get single park (e.g. "Phantasialand")](./examples/single_park.md)
-* [Get single attraction (e.g. "Taron")](./examples/single_attraction.md)
-* [Get list of parks](./examples/list_park.md)
-* [Get waiting times (e.g. "Efteling")](./examples/waiting_times.md)
-* [Get facet search (e.g. of parks)](./examples/facet_park.md)
-* [Get parks by geo location](./examples/location_filter.md)
-
-Please keep in mind that these are very simple examples with only a fraction of the fields.
-The complete documentation can be found in our [Playground](./playground.html).
-
-## Localization
-You can help to improve the english translations at [crowdin](https://crowdin.com/project/coastercloud). We are grateful for any help.
-
-## Services used by [coaster.cloud](https://coaster.cloud)
-Thanks to all services which provide us an open source / open data license.
-
-<a href="https://www.browserstack.com"><img src="./images/browserstack.png" width="277" height="60"></a>
-
-<a href="https://crowdin.com"><img src="./images/crowdin.png" width="276" height="60"></a>
+The API will be switched off on Friday evening, June 5, 2020.
